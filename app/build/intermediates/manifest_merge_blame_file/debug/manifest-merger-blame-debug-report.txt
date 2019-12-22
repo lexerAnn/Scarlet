@@ -1,0 +1,260 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.lexter"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:7:22-78
+14
+15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\4ab34bad875a19b0547ac787a2a1df12\firebase-database-19.2.0\AndroidManifest.xml:25:5-79
+17-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\4ab34bad875a19b0547ac787a2a1df12\firebase-database-19.2.0\AndroidManifest.xml:25:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+18-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\eec57820db82c6f0db1ccaa2063f088c\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:5-68
+18-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\eec57820db82c6f0db1ccaa2063f088c\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:22-65
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+19-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\4dff9387d7c5e36673c24a4cfb335789\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+19-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\4dff9387d7c5e36673c24a4cfb335789\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+20-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+20-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
+21
+22    <application
+22-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:9:5-38:19
+23        android:allowBackup="true"
+23-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:10:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\f472472b1ff6063bb7db195d2b71c0b7\core-1.1.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:11:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:12:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:13:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:14:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:15:9-40
+32        <activity android:name="com.android.lexter.EmptyActivity" />
+32-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:16:9-60
+32-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:16:19-48
+33        <activity android:name="com.android.lexter.util.Welcome" />
+33-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:17:9-50
+33-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:17:19-47
+34        <activity android:name="com.android.lexter.ProfilePage" />
+34-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:18:9-49
+34-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:18:19-46
+35        <activity android:name="com.android.lexter.ProfileActivity" />
+35-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:19:9-53
+35-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:19:19-50
+36        <activity android:name="com.android.lexter.Main2Activity" />
+36-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:20:9-51
+36-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:20:19-48
+37        <activity android:name="com.android.lexter.PostActivity" />
+37-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:21:9-50
+37-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:21:19-47
+38        <activity android:name="com.android.lexter.ComposeBlog" />
+38-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:22:9-49
+38-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:22:19-46
+39        <activity android:name="com.android.lexter.Login" />
+39-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:23:9-43
+39-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:23:19-40
+40        <activity
+40-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:24:9-75
+41            android:name="com.android.lexter.Registration"
+41-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:24:19-47
+42            android:noHistory="true" />
+42-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:24:49-73
+43        <activity
+43-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:25:9-27:40
+44            android:name="com.android.lexter.MainActivity"
+44-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:26:13-41
+45            android:noHistory="true" />
+45-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:27:13-37
+46        <activity
+46-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:28:9-34:20
+47            android:name="com.android.lexter.SplashActivitys"
+47-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:28:19-50
+48            android:noHistory="true" >
+48-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:28:51-75
+49            <intent-filter>
+49-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:29:13-33:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:30:17-69
+50-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:30:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:32:17-77
+52-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:32:27-74
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:35:9-37:59
+56            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+56-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:36:13-76
+57            android:theme="@style/Base.Theme.AppCompat" />
+57-->C:\Users\Leslie\AndroidStudioProjects\Lexter\app\src\main\AndroidManifest.xml:37:13-56
+58        <activity
+58-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\23ebf63cda831921a8e42a21c0db4033\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+59            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+59-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\23ebf63cda831921a8e42a21c0db4033\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+60            android:excludeFromRecents="true"
+60-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\23ebf63cda831921a8e42a21c0db4033\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+61            android:exported="true"
+61-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\23ebf63cda831921a8e42a21c0db4033\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+62            android:launchMode="singleTask"
+62-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\23ebf63cda831921a8e42a21c0db4033\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+63            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+63-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\23ebf63cda831921a8e42a21c0db4033\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+64            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+64-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\23ebf63cda831921a8e42a21c0db4033\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+65
+66        <service
+66-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\23ebf63cda831921a8e42a21c0db4033\firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
+67            android:name="com.google.firebase.components.ComponentDiscoveryService"
+67-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\23ebf63cda831921a8e42a21c0db4033\firebase-auth-19.2.0\AndroidManifest.xml:34:13-84
+68            android:directBootAware="true"
+68-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\055a3e1700e08c1e470dfac71252fd73\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+69            android:exported="false" >
+69-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\23ebf63cda831921a8e42a21c0db4033\firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+70            <meta-data
+70-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\23ebf63cda831921a8e42a21c0db4033\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+71                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+71-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\23ebf63cda831921a8e42a21c0db4033\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\23ebf63cda831921a8e42a21c0db4033\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\4ab34bad875a19b0547ac787a2a1df12\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+74                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+74-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\4ab34bad875a19b0547ac787a2a1df12\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\4ab34bad875a19b0547ac787a2a1df12\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\8b6c658b5f310bca24c32705c982d5a9\firebase-storage-19.1.0\AndroidManifest.xml:33:13-35:85
+77                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+77-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\8b6c658b5f310bca24c32705c982d5a9\firebase-storage-19.1.0\AndroidManifest.xml:34:17-107
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\8b6c658b5f310bca24c32705c982d5a9\firebase-storage-19.1.0\AndroidManifest.xml:35:17-82
+79            <meta-data
+79-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\eec57820db82c6f0db1ccaa2063f088c\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+80                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+80-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\eec57820db82c6f0db1ccaa2063f088c\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\eec57820db82c6f0db1ccaa2063f088c\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\4dff9387d7c5e36673c24a4cfb335789\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+83                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+83-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\4dff9387d7c5e36673c24a4cfb335789\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\4dff9387d7c5e36673c24a4cfb335789\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+85        </service>
+86
+87        <receiver
+87-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\4dff9387d7c5e36673c24a4cfb335789\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+88            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+88-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\4dff9387d7c5e36673c24a4cfb335789\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+89            android:exported="true"
+89-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\4dff9387d7c5e36673c24a4cfb335789\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+90            android:permission="com.google.android.c2dm.permission.SEND" >
+90-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\4dff9387d7c5e36673c24a4cfb335789\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+91            <intent-filter>
+91-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\4dff9387d7c5e36673c24a4cfb335789\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+92                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+92-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\4dff9387d7c5e36673c24a4cfb335789\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+92-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\4dff9387d7c5e36673c24a4cfb335789\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+93            </intent-filter>
+94        </receiver>
+95
+96        <activity
+96-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\ffbf92f27e03b67ebae471c14d913f5e\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+97            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+97-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\ffbf92f27e03b67ebae471c14d913f5e\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+98            android:exported="false"
+98-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\ffbf92f27e03b67ebae471c14d913f5e\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+99            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+99-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\ffbf92f27e03b67ebae471c14d913f5e\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+100
+101        <receiver
+101-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+102            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+102-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+103            android:enabled="true"
+103-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+104            android:exported="false" >
+104-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+105        </receiver>
+106        <receiver
+106-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+107            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+107-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+108            android:enabled="true"
+108-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+109            android:exported="true"
+109-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+110            android:permission="android.permission.INSTALL_PACKAGES" >
+110-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+111            <intent-filter>
+111-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+112                <action android:name="com.android.vending.INSTALL_REFERRER" />
+112-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+112-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+113            </intent-filter>
+114        </receiver>
+115
+116        <service
+116-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+117            android:name="com.google.android.gms.measurement.AppMeasurementService"
+117-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+118            android:enabled="true"
+118-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+119            android:exported="false" />
+119-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+120        <service
+120-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+121            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+121-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+122            android:enabled="true"
+122-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+123            android:exported="false"
+123-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+124            android:permission="android.permission.BIND_JOB_SERVICE" />
+124-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\62761939cabf66261a1f62ef35e255cc\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+125
+126        <provider
+126-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\055a3e1700e08c1e470dfac71252fd73\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+127            android:name="com.google.firebase.provider.FirebaseInitProvider"
+127-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\055a3e1700e08c1e470dfac71252fd73\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+128            android:authorities="com.android.lexter.firebaseinitprovider"
+128-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\055a3e1700e08c1e470dfac71252fd73\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+129            android:exported="false"
+129-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\055a3e1700e08c1e470dfac71252fd73\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+130            android:initOrder="100" />
+130-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\055a3e1700e08c1e470dfac71252fd73\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+131
+132        <meta-data
+132-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\1e2d67df209251ef60cead2af475bf8d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+133            android:name="com.google.android.gms.version"
+133-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\1e2d67df209251ef60cead2af475bf8d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+134            android:value="@integer/google_play_services_version" />
+134-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Leslie\.gradle\caches\transforms-2\files-2.1\1e2d67df209251ef60cead2af475bf8d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+135    </application>
+136
+137</manifest>

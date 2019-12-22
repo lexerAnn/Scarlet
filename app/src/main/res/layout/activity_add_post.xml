@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ComposeBlog">
+   <androidx.appcompat.widget.Toolbar
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:id="@+id/toolbar">
+   </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/PostTitles"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Title"
+
+        />
+        <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/PostTexts"
+        android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:hint="Blog Body"
+            android:layout_height="wrap_content">
+
+
+
+
+    </com.google.android.material.textfield.TextInputEditText>
+    <ImageView
+        android:id="@+id/postImg"
+        android:layout_height="300dp"
+        android:layout_width="300dp" />
+
+</LinearLayout>

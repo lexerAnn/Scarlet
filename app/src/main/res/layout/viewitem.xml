@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="7dp"
+    android:padding="16dp"
+    app:cardUseCompatPadding="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/userblogImage"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            tools:src="@color/content_placeholder"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/userBlogTitle"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+        </ImageView>
+        <TextView
+            android:id="@+id/userBlogTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/manjari_bold"
+            android:text="Blog Title"
+            style="@style/AppTheme.H5"
+            android:padding="6dp"
+           app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="15dp"
+            app:layout_constraintTop_toBottomOf="@id/userBlogTitle"
+            app:layout_constraintBottom_toTopOf="@+id/userBlogBody">
+
+
+        </TextView>
+<!--        <TextView-->
+<!--            android:id="@+id/userBlogUserName"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="5dp"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginBottom="45dp"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintStart_toEndOf="@id/blogImage"-->
+<!--            tools:text="My First Post"-->
+<!--            app:layout_constraintBottom_toTopOf="@id/userBlogBody"-->
+
+<!--            />-->
+        <TextView
+            android:id="@+id/userpost_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ellipsize="end"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            tools:text="November 3, 2019"
+           app:layout_constraintTop_toBottomOf="@id/userBlogBody"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+        <TextView
+            android:id="@+id/userpostname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ellipsize="end"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:text="November32019"
+            app:layout_constraintTop_toBottomOf="@id/userBlogBody"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/userBlogBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Random Text"
+            android:maxLines="3"
+            android:fontFamily="@font/manjari_bold"
+            android:textSize="15sp"
+            android:padding="5dp"
+
+            android:ellipsize="end"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="9dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toEndOf="@id/userblogImage"
+            app:layout_constraintTop_toBottomOf="@id/userBlogTitle">
+
+        </TextView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,4 @@
+#Mon Dec 16 18:22:54 GMT 2019
+base.0=C\:\\Users\\Leslie\\AndroidStudioProjects\\Lexter\\app\\build\\intermediates\\dex\\release\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

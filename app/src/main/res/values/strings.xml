@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Scarlet</string>
+    <string name="para1">See what\'s</string>
+    <string name="para2">happening in the</string>
+    <string name="para3">world right now</string>
+    <string name="terms">By signing up,you agree to the Terms of Service and Privary Policy,including Cookie Use</string>
+    <string name="open" />
+    <string name="close" />
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="sendPost">Post</string>
+    <string name="attach">attach</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

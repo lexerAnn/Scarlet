@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "629158682280",
+    "firebase_url": "https://lexter-6c5ad.firebaseio.com",
+    "project_id": "lexter-6c5ad",
+    "storage_bucket": "lexter-6c5ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629158682280:android:e08aa197ad8c2a8910ac9d",
+        "android_client_info": {
+          "package_name": "com.android.lexter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629158682280-ol4sicqn75ane2hucrn904eakhv316mj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.lexter",
+            "certificate_hash": "e194ed353a47b9c062759c508372e99b20245480"
+          }
+        },
+        {
+          "client_id": "629158682280-jkcg5hgooakk8nn5paj1eglilnupav11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSun4rRoMpvfdSg-N4vt-6P1ySuJURG8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629158682280-jkcg5hgooakk8nn5paj1eglilnupav11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
